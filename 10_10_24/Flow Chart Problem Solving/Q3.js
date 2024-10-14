@@ -1,10 +1,2 @@
-function div(n){
-    if(n % 3 ==0){
-        console.log("Yes");
-    }
-    else{
-        console.log("False");
-    }
-}
-
-div(6);
+// we have given n
+// if n % 3 == 0 --> print yes , else --> No

@@ -1,13 +1,3 @@
-function brakes(d,t){
-    let s = d/t;
-
-    if(s>40){
-        console.log("Apply Brakes");
-    }
-    else{
-        console.log("Keep Going");
-    }
-    
-}
-
-brakes(100,2);
+// We have given distance and time 
+// To calculate the speed = distance / time
+// if speed > 40 --> Apply Brakes , else --> Keep Going
