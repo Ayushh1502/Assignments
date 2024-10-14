@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    function sumNumbers(n1,n2,n3){
+    n1 = prompt("Enter a Number");
+    while(isNaN(n1) || n1 == ""){
+        n1 = prompt("Please Enter a Valid Number");
+    }
+    n2 = prompt("Enter a Number");
+    while(isNaN(n2) || n2 == ""){
+        n2 = prompt("Please Enter a Valid Number");
+    }
+    n3 = prompt("Enter a Number");
+    while(isNaN(n3) || n3 == ""){
+        n3 = prompt("Please Enter a Valid Number");
+    }
+
+    n1 = n1 * 1;
+    n2 = n2 * 1;
+    n3 = n3 * 1;
+
+    return n1+n2+n3;
+}
+console.log(sumNumbers());
+</script>
