@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    function calculatePrice(price,discount){
+        price = prompt("Enter the Price:");
+        while(isNaN(price) || price < 0 || price == ""){
+            alert("Not a Valid Price Value");
+            price = prompt("Please Enter a Valid Price");
+        }
+        discount = prompt("Enter the Discount:");
+        while(isNaN(discount) || discount < 0 || discount == ""){
+            alert("Not a Valid Discount Value");
+            discount = prompt("Please Enter a Valid Discount");
+        }
+
+        let Dis = (price * discount) / 100;
+        let actualPri = price - Dis;
+
+        return actualPri;
+
+    }
+console.log(calculatePrice());
+
+</script>
